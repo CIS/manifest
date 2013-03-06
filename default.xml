@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="cis"
+           fetch="https://github.com/CIS" />
+
+  <default revision="master"
+           remote="cis"
+           sync-j="4" />
+
+  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
+</manifest>
